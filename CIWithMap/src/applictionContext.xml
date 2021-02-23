@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="studentBean" class="Student">
+		<constructor-arg value="1" type="int"></constructor-arg>
+		<constructor-arg value="Punit"></constructor-arg>
+		<constructor-arg>
+		<map>
+		<entry key="Physics" value="R N Tiwari"></entry>
+		<entry key="Chemistry" value="Belsare"></entry>
+		<entry key="Maths" value="VenuGopal"></entry>
+		<entry key="English" value="Manoharan"></entry>
+		<entry key="Computer Science" value="Nitin Jain"></entry>
+		</map>
+		</constructor-arg>
+	</bean>
+
+</beans>

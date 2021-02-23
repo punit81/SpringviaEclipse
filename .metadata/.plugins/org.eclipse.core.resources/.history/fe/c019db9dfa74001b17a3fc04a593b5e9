@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="employeeBean" class="EmployeeWithAddress">
+<constructor-arg index="0" value="1" type="int"></constructor-arg>
+<constructor-arg index="1" value="PUNIT"></constructor-arg>
+<constructor-arg index="2" type="Address">
+<ref bean="addressBean"/>
+</constructor-arg>
+</bean>
+<bean id="addressBean" class="Address">
+<constructor-arg index="0" value="Jammu"></constructor-arg>
+<constructor-arg index="1" value="Jammu and Kashmir"></constructor-arg>
+<constructor-arg index="2" value="180003" type="int"></constructor-arg>
+</bean>
+</beans>

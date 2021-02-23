@@ -1,0 +1,13 @@
+import java.util.List;
+public class StudentwithSubjectsList {
+int id;
+String name;
+List<String> subjects;
+public StudentwithSubjectsList(int id, String name, List<String> subjects) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.subjects = subjects;
+}
+
+}
