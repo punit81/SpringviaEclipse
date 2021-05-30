@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="Beannnnnn1" class="Bean1"></bean>
+<!-- <bean id="Beaaaaaan1" class="Bean1"></bean>-->
+<bean id="Bean2" class="Bean2" autowire="byType"></bean>
+</beans>
