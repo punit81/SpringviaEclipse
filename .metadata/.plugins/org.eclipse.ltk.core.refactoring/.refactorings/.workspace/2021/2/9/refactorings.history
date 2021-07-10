@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;SpringExampleViaEclipse&apos;" deleteContents="true" description="Delete resource &apos;SpringExampleViaEclipse&apos;" element1="/SpringExampleViaEclipse" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613922370585"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SpringExampleViaEclipse&apos;" deleteContents="true" description="Delete resource &apos;SpringExampleViaEclipse&apos;" element1="/SpringExampleViaEclipse" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613922370585"/>&#x0A;<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/CIInheritingBean" element2="/CIWithList" element3="/CIwithListOfObjects" element4="/CIWithMap" element5="/CIWithMapOfObjects" element6="/CIWithObjectReference" element7="/ConstructorInjection" element8="/SpringProjectExampleUsingEclipse" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1614108567477"/>
 </session>
