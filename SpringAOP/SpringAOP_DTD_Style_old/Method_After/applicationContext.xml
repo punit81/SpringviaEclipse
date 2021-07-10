@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="objectofA" class="Method_Before.A"></bean>
+<bean id="afterAdvice" class="Method_After.After_Advice"></bean>
+<bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+<property name="target" ref="objectofA"></property>
+<property name="interceptorNames">
+<list>
+<value>afterAdvice</value>
+</list>
+</property>
+</bean>
+</beans>
