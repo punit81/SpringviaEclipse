@@ -10,8 +10,8 @@ import org.springframework.core.io.Resource;
 public class TestAdvice {
 
 	public static void main(String[] args) {
-		ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
-		//Resource r= new ClassPathResource("applicationContext.xml");
+		ApplicationContext ac=new ClassPathXmlApplicationContext("Method_Before/applicationContext.xml");
+		//Resource r= new ClassPathResource("Method_Before/applicationContext.xml");
 		//BeanFactory ac=new XmlBeanFactory(r); 
 		A abean=ac.getBean("proxy",A.class);
 		abean.method1();
